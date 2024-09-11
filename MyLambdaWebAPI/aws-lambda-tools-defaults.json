@@ -1,0 +1,28 @@
+
+{
+    "Information" : [
+        "This file provides default values for the deployment wizard inside Visual Studio and the AWS Lambda commands added to the .NET Core CLI.",
+        "To learn more about the Lambda commands with the .NET Core CLI execute the following command at the command line in the project root directory.",
+        "dotnet lambda help",
+        "All the command line options for the Lambda command can be specified in this file."
+    ],
+    "profile"     : "633477652073_CLI-Role-PowerUser",
+    "region"      : "ap-south-1",
+    "configuration" : "Release",
+    "function-architecture" : "x86_64",
+    "function-runtime"      : "dotnet8",
+    "function-memory-size"  : 512,
+    "function-timeout"      : 30,
+    "function-handler"      : "MyLambdaWebAPI::MyLambdaWebAPI.Function::FunctionHandler",
+    "framework"             : "net8.0",
+    "function-name"         : "TestApi-Phani",
+    "function-description"  : "POC on ApConfig",
+    "package-type"          : "Zip",
+    "function-role"         : "arn:aws:iam::633477652073:role/ARS-mumbai-AspNetCoreFunctionRole-ggRz5uYGKEve",
+    "function-subnets"      : "",
+    "function-security-groups" : "",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : "\"AWS_APPCONFIG_EXTENSION_HTTP_PORT\"=\"2772\";\"AWS_APPCONFIG_EXTENSION_POLL_INTERVAL_SECONDS\"=\"45\";\"AWS_APPCONFIG_EXTENSION_POLL_TIMEOUT_MILLIS\"=\"3000\"",
+    "image-tag"                : "",
+    "kms-key"                  : "arn:aws:kms:ap-south-1:633477652073:key/f0445ef0-02a3-4430-80f0-3f8a3785defb"
+}
